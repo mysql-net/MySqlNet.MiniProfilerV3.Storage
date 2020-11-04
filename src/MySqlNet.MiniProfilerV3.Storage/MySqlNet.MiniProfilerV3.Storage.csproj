@@ -1,10 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net451</TargetFramework>
+    <VersionPrefix>2.0.0</VersionPrefix>
+    <Description>Stores MiniProfiler V3 timings in a MySQL database.</Description>
+    <Copyright>Copyright 2017–2020 Bradley Grainger</Copyright>
+    <Authors>Bradley Grainger</Authors>
+    <PackageTags>miniprofiler;mysql;mysqlconnector</PackageTags>
+    <PackageReleaseNotes>Update MySqlConnector to latest version.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/mysql-net/MySqlNet.MiniProfilerV3.Storage</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/mysql-net/MySqlNet.MiniProfilerV3.Storage.git</RepositoryUrl>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>embedded</DebugType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="1.50.2" />
-    <PackageReference Include="MiniProfiler" Version="3.2.0.157" />
+    <PackageReference Include="MiniProfiler" Version="3.*" />
     <PackageReference Include="MySqlConnector" Version="0.22.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
   </ItemGroup>
 </Project>

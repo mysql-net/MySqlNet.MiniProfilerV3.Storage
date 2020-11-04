@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using Dapper;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 using StackExchange.Profiling;
 using StackExchange.Profiling.Helpers;
 using StackExchange.Profiling.Storage;

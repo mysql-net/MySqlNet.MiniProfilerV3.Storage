@@ -19,7 +19,7 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="1.50.2" />
     <PackageReference Include="MiniProfiler" Version="3.*" />
-    <PackageReference Include="MySqlConnector" Version="0.22.0" />
+    <PackageReference Include="MySqlConnector" Version="1.0.1" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
   </ItemGroup>
 </Project>
